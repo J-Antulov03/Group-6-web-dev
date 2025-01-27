@@ -183,11 +183,13 @@ and vertically.
 */
 
 .why {
- 
+  background-color: #555555;
+  color: white;
 }
 
 .why h2 {
-  
+  display: flex;
+  justify-content: center;
 }
 
 .centered-boxes {
