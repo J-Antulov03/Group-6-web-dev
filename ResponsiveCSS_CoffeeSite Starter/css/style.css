@@ -1,0 +1,223 @@
+body {
+  color: #3c3c3c;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+/****************  CHALLENGE #1  *******************/
+/*******   Create the menubar using flexbox ************/
+/*
+  The coffee cup logo stays on the left and the menu items are on the right.
+  The items are vertically aligned in the center of the navbar.
+  There is equal spacing between the menu options.  Dark grey background color (#555555)
+  and white text. Remove the underline on links but add on hover. 
+*/
+
+nav {
+ 
+}
+
+.logo {
+
+}
+
+.nav-links {
+ 
+}
+
+.nav-item { 
+ 
+}
+
+.nav-item a {
+ 
+}
+
+.nav-item a:hover {
+  
+}
+
+/**************  CHALLENGE #2   ************************/
+/*************   mobile navbar  *****************/
+/* 
+Use a media query and flexbox layout so that when the navbar is viewed on any 
+device-width less than 600px, the icon and menu items are stacked on top of 
+each other with appropriate spacing.
+*/
+@media (max-width: 600px) {
+  nav {
+   
+  }
+
+  .nav-links {
+   
+  }
+
+  .nav-item {
+   
+  }
+
+  .logo {
+   
+  }
+}
+
+
+
+/****************  CHALLENGE #3  *******************/
+/******* Create banner section with background image *****/
+/* 
+Style the banner section to have the background image, home_banner-x489.png, 
+CSS for background image: https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+fill the background.  Use flexbox to center vertically and horizontally the heading 
+and paragraph in white with drop shadow for emphasis centered on top.
+*/
+
+.banner {
+  
+}
+
+.banner h1 {
+  font-family: 'Lobster', cursive;
+ 
+}
+
+.banner p {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/***********************   CHALLENGE #4    **********************/
+/***********    How Section 3-column responsive layout *********/
+/*
+Create the how section to have a light grey (#EEEEEE) background and centered title in a
+dark font color.  Use grid to create a 3 column layout with the image displayed
+as a circle at the top of each column.  Beneath the image center the title and content
+within the column.  The 3 columns should respond to the media size but not shrink
+below 250 pixels in width.  
+*/
+.how {
+
+}
+
+.how h2 {
+ 
+}
+
+.triple-col {
+ 
+}
+
+.item {
+
+}
+
+.item img {
+ 
+}
+
+.item h4 {
+
+}
+
+.item p {
+
+}
+
+/***********************   CHALLENGE #5    **********************/
+/***********    Roast Section 4-column responsive card layout *********/
+/*
+Create the travel section to have a light grey (#EEEEEE) background and centered title in a
+dark font color.  Use grid to create a 4 column card layout.  Each card should
+have a white background and minimal rounded corners and light drop-shadow.  In each
+card, the image, heading, content and link are centered horizontally within the card.  
+The link color should be dark red and on hover the underline should display.  
+The 4 columns should respond to the media size but not shrink
+below 260 pixels in width.  
+** You must ensure that the images do not extend outside the card at any media width.  
+*/
+.travel {
+ 
+}
+
+.travel h2 {
+ 
+}
+
+.quad-col {
+ 
+}
+
+.item-coffee {
+ 
+}
+
+.item-coffee img {
+ 
+}
+
+.item-coffee h4 {
+ 
+}
+
+.item-coffee p {
+  
+}
+
+.item-coffee a {
+ 
+}
+
+.item-coffee a:hover {
+  
+}
+
+/***********************   CHALLENGE #6    **********************/
+/***********    Why Section responsive flex boxes  *********/
+/*
+Create the why section to have a dark grey background (#555555 and white text.  
+Center the heading.  Use flexbox to create 300px X 200px boxes with a thin light grey outline.
+Keep 20 pixes between each box and use flex to fit as many boxes at 300px that will
+fit but wrap when they don't fit.  The boxes should remain centered horizontally no 
+matter how many rows. Within each box use flex to center the content both horizontally 
+and vertically.
+*/
+
+.why {
+ 
+}
+
+.why h2 {
+  
+}
+
+.centered-boxes {
+  
+}
+
+.box {
+ 
+}
+
+
+/***********************   CHALLENGE #7    ***************************/
+/**********************  sticky flex footer   ***********************/
+/*
+Create a dark grey footer (#454545) with white text.  Use flexBox to align both
+the heading and the button in the center. Style the button with white background
+and dark grey text.  On hover reverse the background to dark and text to white.
+*/
+footer {
+ 
+}
+
+footer h3 {
+ 
+}
+
+footer button {
+ 
+}
+
+footer button:hover {
+ 
+}
